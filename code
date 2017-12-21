@@ -1,0 +1,146 @@
+<script>
+
+$blue: #5786A4;
+
+body {
+  background-color: $blue;
+}
+
+  
+  h2 {
+    font-family: Lobster, Monospace;
+  }
+  
+h3 {
+    font-family: Monospace;
+    font-size: 20px;
+    color: rgb(255, 255, 255)
+  }
+  
+  h4 {
+    font-family: Monospace;
+    font-size: 18px;
+  }
+  
+  h5 {
+    font-family: Monospace;
+    font-size: 16px;
+  }
+  
+  p {
+    font-size: 16px;
+    font-family: Monospace;
+  }
+
+p2 {
+  position: absolute;
+    font-size: 16px;
+    font-family: Monospace;
+  color: rgb(255, 255, 255);
+  text-align: center;
+   top: 200px;
+   left: 0;
+   width: 100%;
+   margin: 0 auto;
+   width: 300px;
+   height: 50px;
+  }
+
+  .thick-black-border {
+    border-color: rgb(0, 0, 0);
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 362px;
+    margin: 50px;
+    
+  }
+
+.thin-black-border {
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: solid;
+  }
+  
+  .smaller-image {
+    width: 60px;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  
+  .stone-image {
+    position: relative;
+    width: 38px;
+    height: 38px;
+    border-color: rgb(141, 141, 141);
+    border-width: 0.1px;
+    border-style: solid;
+    border-radius: 100%;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 00px;
+    margin-left: 15px;
+  }
+  
+  .main-image {
+    width: 300px;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 00px;
+    margin-left: 20px;
+  }
+  
+  .gold-background {
+   width: 362px;
+    img:http://bgfons.com/uploads/gold/gold_texture490.jpg
+  }
+  
+  .header-box {
+    background-color: rgb(236, 208, 169);
+    margin-top: 2.5px;
+    margin-right: 65px;
+    margin-bottom: 00px;
+    margin-left: 0px;
+    padding: 1px;
+  }
+
+  </script>
+
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+<div class="container-fluid">
+  <h2 class="text-center">J.R.R. Tolkien Tribute Page!</h2>
+    <img class="thick-black-border gold-background" src="http://bgfons.com/uploads/gold/gold_texture490.jpg" alt="gold background"></img>    
+     <div class="row">
+       <div class="col-xs-2">
+         <img class="stone-image" src="http://texturelib.com/Textures/rock/stones/rock_stones_0001_01_preview.jpg" alt="grey stone"></img>
+         </div>
+        <div class="col-xs-7">
+       <h4 class="header-box">J.R.R. Tolkien</h4>
+       <h5 class="header-box">The Story Teller</h5>
+   </div>
+         <div class="col-xs-3"> 
+           <img class="smaller-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Flag_of_the_United_Kingdom_%281806%29.svg/960px-Flag_of_the_United_Kingdom_%281806%29.svg.png" alt="flag of England. "></img>
+    </div>
+  </div>
+  <img src="http://www.theimaginativeconservative.org/wp-content/uploads/2016/12/Screen-Shot-2016-12-19-at-2.54.55-PM.png" class="main-image thin-black-border" alt="tolkien sitting in his library."> </img> 
+   <div class="row">
+    <div class="col-xs-2">
+      <img class="stone-image" src="https://i.pinimg.com/736x/ce/7b/d7/ce7bd70e0565a432868060098f3a8470--medieval-shields-viking-shield.jpg" alt="shield">
+      <p2 class="p2">5</p2>
+     <div class="row">
+     <img class="stone-image" src="https://cdn.shopify.com/s/files/1/0266/6599/products/DSC_5092.JPG?v=1500579488" alt="red stone">
+       <p2 class="p2">5</p2>
+    </div>
+      </div>
+     <div class="col-xs-10">
+       <div class="well" id="bottom-well">
+         <h5 class="header-box">Companion * Man</h5>
+        </div>
+      </div>
+  </div>
+   <p>Click here for <a href="https://www.tolkiensociety.org/author/biography/" target="blank">more information</a>.</p>
+  </div>
+</div>
